@@ -11,8 +11,7 @@ export default defineConfig({
   plugins: [
     react(),
     tsconfigPaths({
-      root: '../../',
-      projects: ['tsconfig.base.json'],
+      projects: ['../../tsconfig.base.json'],
     }),
   ],
 

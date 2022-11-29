@@ -9,8 +9,7 @@ export default defineConfig({
   },
   plugins: [
     tsconfigPaths({
-      root: '../../',
-      projects: ['tsconfig.base.json'],
+      projects: ['../../tsconfig.base.json'],
     }),
   ],
 
