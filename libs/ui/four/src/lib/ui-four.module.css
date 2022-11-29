@@ -2,6 +2,13 @@
  * Replace this with your own classes
  *
  * e.g.
- * .container {
- * }
+
 */
+
+.container {
+  background-color: aquamarine;
+  height: 400px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}

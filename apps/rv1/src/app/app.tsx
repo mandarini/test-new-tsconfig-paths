@@ -1,11 +1,14 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.css';
-import NxWelcome from './nx-welcome';
+import { sharedTwo } from '@beta4/shared/two';
+import { UiFour } from '@beta4/ui/four';
 
 export function App() {
+  console.log('I am in rv1 and I am calling sharedTwo', sharedTwo());
   return (
     <>
-      <NxWelcome title="rv1" />
+      <UiFour />
+      <p>
+        Message from sharedTwo in App: <em>{sharedTwo()}</em>
+      </p>
       <div />
     </>
   );
