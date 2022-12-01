@@ -18,7 +18,7 @@ export default defineConfig({
     }),
     react(),
     tsconfigPaths({
-      projects: ['../../../tsconfig.base.json'],
+      root: '../../../',
     }),
   ],
 

@@ -9799,10 +9799,10 @@ vite-plugin-eslint@^1.6.0:
     "@types/eslint" "^8.4.5"
     rollup "^2.77.2"
 
-vite-tsconfig-paths@^4.0.0-alpha.4:
-  version "4.0.0-alpha.4"
-  resolved "https://registry.yarnpkg.com/vite-tsconfig-paths/-/vite-tsconfig-paths-4.0.0-alpha.4.tgz#dfe757c9fccaeb43b0de4fa1cd3a935155456930"
-  integrity sha512-1lBECyXFnyeq1HViGU854/9U4S4lKBrX3rsDDV1Pj+NT//Sc0F5wAz40Dcso5+QNkXvDMdFgXhR4+ahzyJWhSQ==
+vite-tsconfig-paths@^4.0.0-alpha.5:
+  version "4.0.0-alpha.5"
+  resolved "https://registry.yarnpkg.com/vite-tsconfig-paths/-/vite-tsconfig-paths-4.0.0-alpha.5.tgz#4d5ec772f28c1a458ff5dc433cb3a958a2799d1e"
+  integrity sha512-nSPqJd6LuSsSwCEoSQ3vMWU5X3D8fhl6YPUVzHb0qMvlnI3QlCUboc5fdsYRHYbvOjcf8cBEEQgWQWYplhBP0g==
   dependencies:
     debug "^4.1.1"
     globrex "^0.1.2"
