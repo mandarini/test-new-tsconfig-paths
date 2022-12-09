@@ -1,3 +1,7 @@
+# BRANCH `test/4.0.0`
+
+* Version `4.0.0` works without providing `projects` array.
+
 # Demo for Vite
 
 ## What?

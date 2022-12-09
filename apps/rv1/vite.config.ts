@@ -12,6 +12,7 @@ export default defineConfig({
     react(),
     tsconfigPaths({
       root: '../../',
+      
     }),
   ],
 
