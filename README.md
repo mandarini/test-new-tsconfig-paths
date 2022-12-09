@@ -1,7 +1,23 @@
-# BRANCH `test/4.0.0`
+# BRANCH `test/4.0.1`
 
-* Version `4.0.0` works without providing `projects` array.
+* Version `4.0.1` does NOT work without providing `projects` array. It needs `projects: ['tsconfig.base.json']` to work.
 
+Try
+
+```
+nx build rv1 --skipNxxCache
+```
+
+See it failing.
+
+Then do:
+
+```
+yarn add -D vite-tsconfig-paths@4.0.0
+```
+
+and try building again. See it working.
+  
 # Demo for Vite
 
 ## What?
